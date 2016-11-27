@@ -1,0 +1,13 @@
+name: blog
+dependencies:
+  - python=2.7
+  - Markdown=2.6.6
+  - jupyter>=1.0
+  - ipython>=4.0
+  - nbconvert>=4.0
+  - beautifulsoup4
+  - matplotlib=1.5.1
+  - pip:
+    - pelican==3.6.3
+    - ghp-import==0.4.1
+    - typogrify

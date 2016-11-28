@@ -1,3 +1,7 @@
+/* .container{
+    max-width: 850px;
+} */
+
 div.cell {
     display: flex;
     flex-direction: column;
@@ -141,6 +145,10 @@ div.input_area > div.highlight > pre {
     border: none;
     padding: 4px;
     background-color: transparent;
+    /* overflow-x: scroll;
+    overflow-y: auto;
+    word-break: break-all;
+    word-wrap: break-word; */
 }
 
 .CodeMirror {

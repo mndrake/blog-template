@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Dave Carlson'
-SITENAME = u'Machine Learning Group'
+SITENAME = u'Pelican Blog'
 SITEURL = ''
 
 MARKUP = ('md', 'ipynb')
@@ -23,11 +23,11 @@ AUTHOR_FEED_RSS = None
 
 THEME = 'theme'
 BOOTSTRAP_THEME = 'yeti'
-PYGMENTS_STYPE = 'default'
+PYGMENTS_STYLE = 'vs'
 BOOTSTRAP_NAVBAR_INVERSE = True
 TYPOGRIFY = False
 
-PLUGIN_PATHS = ['pelican-core']
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tipue_search', 'ipynb.markup', 'tag_cloud', 'related_posts']
 
 MD_EXTENSIONS = ['codehilite(css_class=codehilite)', 'extra']
